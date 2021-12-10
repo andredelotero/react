@@ -1,0 +1,49 @@
+.CustomMenu {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 5px;
+  line-height: 61px;
+}
+
+.responsiveMenu {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  background-color: #5e20d4;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.logo {
+  display: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 500px) {
+  .CustomMenu {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .logo {
+    display: block;
+  }
+}
+
+.responsiveMenu ul {
+  margin: 0;
+}
+.CustomLi {
+  margin: 0;
+  padding: 0;
+}
+
+.Active {
+  background-color: #008600;
+}

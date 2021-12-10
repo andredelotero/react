@@ -1,0 +1,14 @@
+.link,
+.addLink {
+  color: #fff;
+  text-decoration: none;
+}
+.addLink {
+  color: #fff;
+  width: 100%;
+  background-color: #3c04a5;
+}
+
+.addLink:hover {
+  background-color: #200355;
+}

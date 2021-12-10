@@ -1,0 +1,15 @@
+.navFixed {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cartMobile {
+  background-color: #6425dc;
+}
